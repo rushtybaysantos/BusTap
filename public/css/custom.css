@@ -1,0 +1,267 @@
+body {
+  background: #DFF1FF;
+}
+
+.mybox{
+	border-radius: 0px;
+  background-color: #fff;
+}
+
+/* Profile container */
+.profile {
+  margin: 20px 0;
+}
+
+/* Profile sidebar */
+.profile-sidebar {
+  padding: 20px 0 10px 0;
+  margin-bottom: 20px;
+  background: #fff;
+}
+
+.profile-userpic img {
+  float: none;
+  margin: 0 auto;
+  max-width: 250px;
+}
+
+.profile-usertitle {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.profile-usertitle-name {
+  color: #5a7391;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 7px;
+}
+
+.profile-usertitle-job {
+  text-transform: uppercase;
+  color: #5b9bd1;
+  font-size: 12px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.profile-userbuttons {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.profile-userbuttons .btn {
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  padding: 6px 15px;
+  margin-right: 5px;
+}
+
+.profile-userbuttons .btn:last-child {
+  margin-right: 0px;
+}
+    
+.profile-usermenu {
+  margin-top: 30px;
+}
+
+.profile-usermenu ul li {
+  border-bottom: 1px solid #f0f4f7;
+}
+
+.profile-usermenu ul li:last-child {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li a {
+  color: #93a3b5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.profile-usermenu ul li a i {
+  margin-right: 8px;
+  font-size: 14px;
+}
+
+.profile-usermenu ul li a:hover {
+  background-color: #fafcfd;
+  color: #5b9bd1;
+}
+
+.profile-usermenu ul li.active {
+  border-bottom: none;
+}
+
+.profile-usermenu ul li.active a {
+  color: #5b9bd1;
+  background-color: #f6f9fb;
+  border-left: 2px solid #5b9bd1;
+  margin-left: -2px;
+}
+
+/* Profile Content */
+.profile-content {
+  padding: 0px;
+  background: #fff;
+}
+
+/*random css*/
+.h2title{
+  padding-left: 3%;
+  border-bottom: 1px solid #f0f4f7;
+}
+
+a{
+  color: #5b9bd1;
+  transition: 0.5s all;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+input[type="button"]:focus {
+  outline:0;
+}
+
+th
+{
+  font-weight: bold;
+}
+th, td
+{
+  text-align: center;
+}
+
+.mypanel
+{
+  width: 50%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+
+input[type='number'] {
+    -moz-appearance:textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+/*log in*/
+.loginwrapper{
+  width: 65%;
+}
+
+.loginrowwrapper{
+  margin-top: 18%;
+}
+
+/*sign up*/
+.signup-body{
+  background-color: #fff;
+  margin: 2%;
+  border-radius: 10px;
+}
+
+.signup-head{
+  padding: 2% 0% 0% 2%;
+}
+
+/*notification panel*/
+.notif-btn{
+  width: 100%;
+  border: 0px;
+  border-right: 1px solid #E4E8ED;
+  border-bottom: 1px solid #f0f4f7;
+  background-color: #fff;
+  color: #93a3b5;
+  padding: 5%;
+  transition: ALL 0.5s;
+}
+
+.notif-btn:hover{
+  border: 0px;
+  border-right: 1px solid #E4E8ED;
+   border-bottom: 1px solid #f0f4f7;
+  background-color: #E4E8ED;
+  color: #23527c;
+}
+
+.unread
+{
+  font-weight: bold;
+}
+
+.msg ul li.selectedmsg .notif-btn{
+  border: 0px;
+  border-right: 1px solid #E4E8ED;
+   border-bottom: 1px solid #f0f4f7;
+  background-color: #E4E8ED;
+  color: #23527c;
+}
+
+/*load panel*/
+.loadpanel
+{
+  width: 50%;
+  margin-top: 5%;
+}
+
+.btn-mysubmit, .btn-mysubmit:active
+{
+  background-color: #5b9bd1;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.btn-mysubmit:hover
+{
+  background-color: #fff;
+  color: #5b9bd1;
+  border: 1px solid #5b9bd1;
+  transition: all 0.5s;
+}
+
+
+/*tab*/
+.tabhead{
+  border-bottom: 1px solid #f0f4f7;
+  padding: 1% 0% 0% 1%;
+  transition: all 0.5s;
+}
+
+.tabmenu{
+}
+
+ul.tabmenu li{
+  display: inline-block;
+}
+
+.tab-btn{
+  border: 1px solid #fff;
+  background-color: #fff;
+  color: #93a3b5;
+  padding: 10px 10px 5px 10px;
+  transition: all 0.5s;
+}
+
+.tab-btn:hover{
+  border: 1px solid #E4E8ED;
+  border: 1px 1px 0px 1px;
+  border-radius: 8px 8px 0px 0px;
+  transition: all 0.5s;
+}
+
+
+.tabhead ul li.selectedtab .tab-btn{
+  color: #fff;
+  background-color: #5b9bd1;
+  border: 1px solid #5b9bd1;
+  border: 1px 1px 0px 1px;
+  border-radius: 8px 8px 0px 0px;
+  transition: all 0.5s;
+}
